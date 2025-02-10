@@ -1,0 +1,41 @@
+2025-02-08 10:26:57,062 - DEBUG - hello id 5
+2025-02-08 10:32:34,039 - DEBUG -  project_id 5 , file_id aaa
+2025-02-08 10:33:09,335 - DEBUG -  project_id 5 , file_id aaa
+2025-02-08 10:33:09,337 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/5/aaa
+2025-02-08 10:33:09,338 - DEBUG - file extension 
+2025-02-08 10:34:42,463 - DEBUG -  project_id 5 , file_id aaa.txt
+2025-02-08 10:34:42,465 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/5/aaa.txt
+2025-02-08 10:34:42,466 - DEBUG - file extension .txt
+2025-02-08 10:35:30,188 - DEBUG -  project_id 5 , file_id aaa.txt
+2025-02-08 10:35:31,701 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/5/aaa.txt
+2025-02-08 10:35:31,702 - DEBUG - file extension .txt
+2025-02-08 10:35:45,694 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:35:45,696 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:35:45,697 - DEBUG - file extension .txt
+2025-02-08 10:36:02,423 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:36:02,427 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:36:02,428 - DEBUG - file extension .txt
+2025-02-08 10:37:48,385 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:37:48,389 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:37:48,389 - DEBUG - file extension .txt
+2025-02-08 10:38:19,653 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:38:19,656 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:38:19,657 - DEBUG - file extension .txt
+2025-02-08 10:39:00,198 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:39:00,203 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:39:00,203 - DEBUG - file extension .txt
+2025-02-08 10:39:31,096 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:39:31,100 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:39:31,100 - DEBUG - file extension .txt
+2025-02-08 10:40:09,277 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:40:09,280 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:40:09,280 - DEBUG - file extension .txt
+2025-02-08 10:40:18,460 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:40:18,462 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:40:18,463 - DEBUG - file extension .txt
+2025-02-08 10:40:21,735 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:40:21,737 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:40:21,737 - DEBUG - file extension .txt
+2025-02-08 10:40:27,452 - DEBUG -  project_id 3 , file_id aaa.txt
+2025-02-08 10:40:27,455 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
+2025-02-08 10:40:27,455 - DEBUG - file extension .txt
