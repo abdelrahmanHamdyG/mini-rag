@@ -8,7 +8,8 @@ import aiofiles
 from routes import ProcessRequest  
 from models import ResponseSignals
 from helpers import Logger
-from models import ProjectModel
+from models import ProjectModel,DataChunkModel
+from models.db_schemas import DataChunk
 
 logger=Logger().get_logger()
 
@@ -49,7 +50,7 @@ async def upload_file(request:Request, project_id:str,file: UploadFile= File(Non
 
     return JSONResponse(
             content={"message": ResponseSignals.FILE_UPLOADED_SUCCESSFULLY.value 
-                    ,"project_id":str(project._id)
+                    ,"project_id":str(project.id)
                      
                      }
         )
@@ -57,8 +58,12 @@ async def upload_file(request:Request, project_id:str,file: UploadFile= File(Non
 
 
 @data_router.post("/process/{project_id}")
-async def process_file(project_id:str,process_request:ProcessRequest):
+async def process_file(request:Request,project_id:str,process_request:ProcessRequest):
     
+    
+
+    project=ProjectModel(request.app.db_client)
+    project=await project.get_project_or_create_one(project_id)
     
     file_id=process_request.file_id
     chunk_size=process_request.chunck_size
@@ -85,4 +90,14 @@ async def process_file(project_id:str,process_request:ProcessRequest):
 
         )
    
-    return file_chunks
+    file_chunks_records=[
+
+
+        DataChunk(chunk_text=chunk.page_content,chunk_metadata=chunk.metadata,chunk_order=i+1,chunk_project_id=project.id)
+        for i,chunk in enumerate(file_chunks)
+    ]
+
+
+    chunkModel=DataChunkModel(db_client=request.app.db_client)
+    number_of_chunks=await chunkModel.insert_many_chunks(chunks=file_chunks_records)
+    return number_of_chunks
