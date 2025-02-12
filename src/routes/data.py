@@ -20,7 +20,7 @@ data_router=APIRouter(prefix="/data")
 async def upload_file(request:Request, project_id:str,file: UploadFile= File(None),app_settings: Settings = Depends(get_settings)):
     
 
-    project=ProjectModel(request.app.db_client)
+    project=await ProjectModel.create_instance(request.app.db_client)
     project=await project.get_project_or_create_one(project_id)
     
     is_valid,signal_message=DataController().validate_uploaded_file(file=file)
@@ -62,7 +62,7 @@ async def process_file(request:Request,project_id:str,process_request:ProcessReq
     
     
 
-    project=ProjectModel(request.app.db_client)
+    project=await ProjectModel.create_instance(request.app.db_client)
     project=await project.get_project_or_create_one(project_id)
     
     file_id=process_request.file_id
@@ -98,6 +98,6 @@ async def process_file(request:Request,project_id:str,process_request:ProcessReq
     ]
 
 
-    chunkModel=DataChunkModel(db_client=request.app.db_client)
+    chunkModel=await DataChunkModel.create_instance(db_client=request.app.db_client)
     number_of_chunks=await chunkModel.insert_many_chunks(chunks=file_chunks_records)
     return number_of_chunks

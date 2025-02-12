@@ -51,3 +51,6 @@
 2025-02-12 06:51:53,322 - DEBUG -  project_id 90066 , file_id aaa.txt
 2025-02-12 06:51:53,325 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/90066/aaa.txt
 2025-02-12 06:51:53,326 - DEBUG - file extension .txt
+2025-02-12 08:04:12,646 - DEBUG -  project_id 666 , file_id aaa.txt
+2025-02-12 08:04:12,649 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/666/aaa.txt
+2025-02-12 08:04:12,650 - DEBUG - file extension .txt
