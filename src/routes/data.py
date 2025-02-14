@@ -8,8 +8,9 @@ import aiofiles
 from routes import ProcessRequest  
 from models import ResponseSignals
 from helpers import Logger
-from models import ProjectModel,DataChunkModel
-from models.db_schemas import DataChunk
+from models import ProjectModel,DataChunkModel,AssetModel
+from models.db_schemas import DataChunk,Asset
+from models import AssetTypeEnums
 
 logger=Logger().get_logger()
 
@@ -33,7 +34,7 @@ async def upload_file(request:Request, project_id:str,file: UploadFile= File(Non
     
     project_dir_path= ProjectController().get_project_path(project_id=project_id)
 
-
+    
     file_path=os.path.join(project_dir_path,file.filename)
 
     try:
@@ -47,11 +48,20 @@ async def upload_file(request:Request, project_id:str,file: UploadFile= File(Non
             content={"message": ResponseSignals.FILE_UPLOADED_FAILED.value}
         )
 
+    assetModel=await AssetModel.create_instance(db_client=request.app.db_client)
+    asset_resource=  Asset(
+        asset_project_id=project.id,
+        asset_type=AssetTypeEnums.FILE.value,
+        asset_name=file.filename,
+        asset_size=os.path.getsize(file_path))
+
+    asset_record=await assetModel.create_asset(asset=asset_resource)
+
 
     return JSONResponse(
             content={"message": ResponseSignals.FILE_UPLOADED_SUCCESSFULLY.value 
-                    ,"project_id":str(project.id)
-                     
+                    ,"project_id":str(asset_record.id)
+                    
                      }
         )
 
