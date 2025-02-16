@@ -1,59 +1,34 @@
-2025-02-08 10:26:57,062 - DEBUG - hello id 5
-2025-02-08 10:32:34,039 - DEBUG -  project_id 5 , file_id aaa
-2025-02-08 10:33:09,335 - DEBUG -  project_id 5 , file_id aaa
-2025-02-08 10:33:09,337 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/5/aaa
-2025-02-08 10:33:09,338 - DEBUG - file extension 
-2025-02-08 10:34:42,463 - DEBUG -  project_id 5 , file_id aaa.txt
-2025-02-08 10:34:42,465 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/5/aaa.txt
-2025-02-08 10:34:42,466 - DEBUG - file extension .txt
-2025-02-08 10:35:30,188 - DEBUG -  project_id 5 , file_id aaa.txt
-2025-02-08 10:35:31,701 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/5/aaa.txt
-2025-02-08 10:35:31,702 - DEBUG - file extension .txt
-2025-02-08 10:35:45,694 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:35:45,696 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:35:45,697 - DEBUG - file extension .txt
-2025-02-08 10:36:02,423 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:36:02,427 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:36:02,428 - DEBUG - file extension .txt
-2025-02-08 10:37:48,385 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:37:48,389 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:37:48,389 - DEBUG - file extension .txt
-2025-02-08 10:38:19,653 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:38:19,656 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:38:19,657 - DEBUG - file extension .txt
-2025-02-08 10:39:00,198 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:39:00,203 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:39:00,203 - DEBUG - file extension .txt
-2025-02-08 10:39:31,096 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:39:31,100 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:39:31,100 - DEBUG - file extension .txt
-2025-02-08 10:40:09,277 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:40:09,280 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:40:09,280 - DEBUG - file extension .txt
-2025-02-08 10:40:18,460 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:40:18,462 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:40:18,463 - DEBUG - file extension .txt
-2025-02-08 10:40:21,735 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:40:21,737 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:40:21,737 - DEBUG - file extension .txt
-2025-02-08 10:40:27,452 - DEBUG -  project_id 3 , file_id aaa.txt
-2025-02-08 10:40:27,455 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/aaa.txt
-2025-02-08 10:40:27,455 - DEBUG - file extension .txt
-2025-02-12 06:50:09,620 - DEBUG -  project_id 90066 , file_id aaa.txt
-2025-02-12 06:50:09,719 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/90066/aaa.txt
-2025-02-12 06:50:09,720 - DEBUG - file extension .txt
-2025-02-12 06:50:49,680 - DEBUG -  project_id 90066 , file_id aaa.txt
-2025-02-12 06:50:49,682 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/90066/aaa.txt
-2025-02-12 06:50:49,682 - DEBUG - file extension .txt
-2025-02-12 06:51:12,491 - DEBUG -  project_id 90066 , file_id aaa.txt
-2025-02-12 06:51:12,494 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/90066/aaa.txt
-2025-02-12 06:51:12,495 - DEBUG - file extension .txt
-2025-02-12 06:51:53,322 - DEBUG -  project_id 90066 , file_id aaa.txt
-2025-02-12 06:51:53,325 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/90066/aaa.txt
-2025-02-12 06:51:53,326 - DEBUG - file extension .txt
-2025-02-12 08:04:12,646 - DEBUG -  project_id 666 , file_id aaa.txt
-2025-02-12 08:04:12,649 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/666/aaa.txt
-2025-02-12 08:04:12,650 - DEBUG - file extension .txt
-2025-02-14 12:06:15,102 - DEBUG -  project_id 669 , file_id aaa.txt
-2025-02-14 12:06:17,076 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/669/aaa.txt
-2025-02-14 12:06:17,076 - DEBUG - file extension .txt
+2025-02-15 06:27:42,176 - DEBUG - project_files count is 2 [Asset(id=ObjectId('67b0ad7d941686461d619752'), asset_project_id=ObjectId('67b0ad7d941686461d619751'), asset_type='file', asset_name='bbb.txt', asset_size=241, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7f837d513900>), Asset(id=ObjectId('67b0ad86941686461d619753'), asset_project_id=ObjectId('67b0ad7d941686461d619751'), asset_type='file', asset_name='ccc.txt', asset_size=121, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7f837d513900>)] project_id 67b0ad7d941686461d619751 
+2025-02-15 06:27:42,177 - DEBUG - project_file_ids {ObjectId('67b0ad7d941686461d619752'): 'bbb.txt', ObjectId('67b0ad86941686461d619753'): 'ccc.txt'}
+2025-02-15 06:27:42,177 - DEBUG - file id bbb.txt
+2025-02-15 06:27:42,177 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt
+2025-02-15 06:27:42,178 - DEBUG - file extension .txt
+2025-02-15 06:27:42,183 - DEBUG -  chunks [Document(page_content='Hello I am Abdelrahman ghania \nI am 21 years old I hope I will be a good man', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='how are you today is 15th of the February 2025 \nI am in Lafayette Indiana US', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='I am studying at purdue university', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='please remember that and be smart', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'})] Hello I am Abdelrahman ghania 
+I am 21 years old I hope I will be a good man
+2025-02-15 06:27:42,189 - DEBUG - file id ccc.txt
+2025-02-15 06:27:42,189 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/ccc.txt
+2025-02-15 06:27:42,189 - DEBUG - file extension .txt
+2025-02-15 06:27:42,194 - DEBUG -  chunks [Document(page_content='assjdshj hs \n\n\nvisca barca', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/ccc.txt'}), Document(page_content="hello my friend that's me what are you doing now are you crazy ??? yes I think you are", metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/ccc.txt'})] assjdshj hs 
+
+
+visca barca
+2025-02-15 06:28:13,503 - DEBUG - project_files count is 2 [Asset(id=ObjectId('67b0ad7d941686461d619752'), asset_project_id=ObjectId('67b0ad7d941686461d619751'), asset_type='file', asset_name='bbb.txt', asset_size=241, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7f837d513900>), Asset(id=ObjectId('67b0ad86941686461d619753'), asset_project_id=ObjectId('67b0ad7d941686461d619751'), asset_type='file', asset_name='ccc.txt', asset_size=121, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7f837d513900>)] project_id 67b0ad7d941686461d619751 
+2025-02-15 06:28:13,504 - DEBUG - project_file_ids {ObjectId('67b0ad7d941686461d619752'): 'bbb.txt', ObjectId('67b0ad86941686461d619753'): 'ccc.txt'}
+2025-02-15 06:28:13,504 - DEBUG - file id bbb.txt
+2025-02-15 06:28:13,504 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt
+2025-02-15 06:28:13,504 - DEBUG - file extension .txt
+2025-02-15 06:28:13,508 - DEBUG -  chunks [Document(page_content='Hello I am Abdelrahman ghania \nI am 21 years old I hope I will be a good man', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='how are you today is 15th of the February 2025 \nI am in Lafayette Indiana US', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='I am studying at purdue university', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='please remember that and be smart', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'})] Hello I am Abdelrahman ghania 
+I am 21 years old I hope I will be a good man
+2025-02-15 06:28:13,512 - DEBUG - file id ccc.txt
+2025-02-15 06:28:13,513 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/ccc.txt
+2025-02-15 06:28:13,513 - DEBUG - file extension .txt
+2025-02-15 06:28:13,517 - DEBUG -  chunks [Document(page_content='assjdshj hs \n\n\nvisca barca', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/ccc.txt'}), Document(page_content="hello my friend that's me what are you doing now are you crazy ??? yes I think you are", metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/ccc.txt'})] assjdshj hs 
+
+
+visca barca
+2025-02-15 06:28:34,704 - DEBUG - project_file_ids {ObjectId('67b0ad7d941686461d619752'): 'bbb.txt'}
+2025-02-15 06:28:34,705 - DEBUG - file id bbb.txt
+2025-02-15 06:28:34,705 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt
+2025-02-15 06:28:34,705 - DEBUG - file extension .txt
+2025-02-15 06:28:34,707 - DEBUG -  chunks [Document(page_content='Hello I am Abdelrahman ghania \nI am 21 years old I hope I will be a good man', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='how are you today is 15th of the February 2025 \nI am in Lafayette Indiana US', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='I am studying at purdue university', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='please remember that and be smart', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'})] Hello I am Abdelrahman ghania 
+I am 21 years old I hope I will be a good man
