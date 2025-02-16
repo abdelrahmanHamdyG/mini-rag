@@ -18,6 +18,17 @@ class Settings:
         self.FILE_MAX_SIZE = int(os.getenv("FILE_MAX_SIZE", 10))
         self.MONGO_URL=os.getenv("MONGO_URL", "")
         self.MONGO_DATABASE=os.getenv("MONGO_DATABASE", "")
+        self.GENERATION_BACKEND = os.getenv("GENERATION_BACKEND", "OPENAI")
+        self.EMBEDDING_BACKEND = os.getenv("EMBEDDING_BACKEND", "COHERE")
+
+        self.OPENAI_API_URL = os.getenv("OPENAI_API_URL", "")
+        self.COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
+
+        self.GENERATION_MODEL_ID = os.getenv("GENERATION_MODEL_ID", "gpt-3.5-turbo-0125")
+        self.EMBEDDING_MODEL_ID = os.getenv("EMBEDDING_MODEL_ID", "embed-multilingual-light-v3.0")
+        self.EMBEDDING_MODEL_SIZE = int(os.getenv("EMBEDDING_MODEL_SIZE", 384))
+
+
 
 def get_settings():
     return Settings()

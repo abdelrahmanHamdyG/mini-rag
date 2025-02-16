@@ -1,10 +1,10 @@
 from ..LLMInterface import LLMInterface
-from openai import OpenAI
 from helpers import Logger
+import cohere
 from ..LLMEnums import LLMEnums 
 
 
-class OpenAiProvider(LLMInterface):
+class CohereProvider(LLMInterface):
     
     def __init__(self,api_key : str, api_url:str,default_input_max_charachters: int =1000
                  ,default_generation_max_characters: int=1000
@@ -22,16 +22,9 @@ class OpenAiProvider(LLMInterface):
         self.embedding_model_id=None
         self.embedding_size=None
 
-        self.client= OpenAI(
-
-            api_key=self.api_key,
-            api_url=self.api_url
-        
-        )
-
+        self.client=cohere.Client(api_key=self.api_key)
         self.logger=Logger.get_logger()
-
-
+    
     def set_generation_model(self,model_id:str):
         self.generation_model_id= model_id
 
@@ -39,7 +32,6 @@ class OpenAiProvider(LLMInterface):
         self.embedding_model_id=model_id
         self.embedding_size=embedding_size
 
-    
 
     def generate_text(self, prompt, max_output_token, chat_history = [], temperature = None):
         
@@ -49,52 +41,52 @@ class OpenAiProvider(LLMInterface):
         max_output_token=max_output_token if max_output_token is not None else self.default_generation_max_output_tokens    
         temperature=temperature if temperature is not None else self.default_generation_temperature
 
-        chat_history.append(self.construct_prompt(prompt,LLMEnums.OPENAI_USER))
-
-        response= self.client.chat.completion.create(
+        response= self.client.chat(
             model =self.generation_model_id,
-            messages=chat_history,
-            max_tokens=max_output_token,
-            temperature=temperature
+            chat_history=chat_history,
+            message=self.process_text(prompt),
+            temperature=temperature,
+            max_tokens= max_output_token
         )
 
-        if not response or not response.choices or len(response.choices)==0:
+        if not response or not response.text:
             return None
         
-        return response.choices[0].message["content"]
+        return response.text
     
-
-
-    def embed_text(self, text, document_type):
-        if not self.client or not self.embedding_model_id  :
-            return None
-        
-        response=self.client.embedding.create(
-
-            model=self.embedding_model_id,
-            input=text
-        )
-
-        if not response or not response.data or len(response.data)==0  or not response.data[0].embedding:
-            return None
-        
-        
-        return response.data[0].embedding
-        
-
+    
     def construct_prompt(self, prompt, role):
         return {
             "role":role,
             "content":self.process_text(prompt)
         }
     
-    def process_text(self,text:str):
+    def process_text(self,text:str,document_type):
         return text[:self.default_input_max_charachters].strip()
     
 
+    def embed_text(self, text, document_type):
+        if not self.client or not self.embedding_model_id:
+            return None
+        
 
+        input_type=LLMEnums.COHERE_DOCUMENT
+        if document_type== LLMEnums.QEURY:
+            input_type=LLMEnums.COHERE_QUERY
+
+        response= self.client.embed(
+
+
+            model=self.embedding_model_id,
+            text=[text],
+            input_type=input_type,
+            embedding_type=['float'],
+        )
+        
+        if not response or not response.embeddings:
+            return None
+        
+        
+
+        
     
-        
-
-
-        
