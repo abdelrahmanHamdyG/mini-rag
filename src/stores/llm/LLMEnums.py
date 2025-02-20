@@ -6,6 +6,6 @@ class LLMEnums(Enum):
     OPENAI_USER="USER"
     COHERE_USER="user"
     COHERE_DOCUMENT="search_document"
-    COHERE_QUERY="query_document"
+    COHERE_QUERY="search_query"
     DOCUMENT="document"
     QEURY="query"

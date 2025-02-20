@@ -52,6 +52,26 @@ class DataChunkModel(BaseDataModel):
 
         return len(chunks)
 
+
+    async def get_project_chunks(self,project_id:ObjectId, page_no: int =1 ,page_size:int =10):
+
+        
+        results=await self.collection.find({
+
+            "chunk_project_id":project_id
+
+        }).skip(
+            (page_no-1)*page_size
+        ).limit(page_size).to_list(length=None)
+
+        return [
+
+            DataChunk(**result)
+            for result in results
+
+        ]
+
+
         
 
 

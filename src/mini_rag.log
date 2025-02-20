@@ -32,3 +32,341 @@ visca barca
 2025-02-15 06:28:34,705 - DEBUG - file extension .txt
 2025-02-15 06:28:34,707 - DEBUG -  chunks [Document(page_content='Hello I am Abdelrahman ghania \nI am 21 years old I hope I will be a good man', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='how are you today is 15th of the February 2025 \nI am in Lafayette Indiana US', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='I am studying at purdue university', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'}), Document(page_content='please remember that and be smart', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/bbb.txt'})] Hello I am Abdelrahman ghania 
 I am 21 years old I hope I will be a good man
+2025-02-20 08:29:25,459 - DEBUG - 
+2025-02-20 08:29:27,829 - DEBUG - 
+2025-02-20 08:29:31,074 - DEBUG - proveider 
+2025-02-20 08:29:34,753 - DEBUG - provider : OPENAI
+2025-02-20 08:29:39,642 - DEBUG - provider : OPENAI
+2025-02-20 08:30:14,626 - DEBUG - provider : OPENAI
+2025-02-20 08:30:46,182 - DEBUG - provider : OPENAI
+2025-02-20 08:30:55,665 - DEBUG - provider : OPENAI
+2025-02-20 08:31:00,723 - DEBUG - provider : OPENAI
+2025-02-20 08:31:04,107 - DEBUG - provider : OPENAI
+2025-02-20 08:31:15,408 - DEBUG - provider : OPENAI
+2025-02-20 08:31:27,406 - DEBUG - provider : OPENAI
+2025-02-20 08:31:35,017 - DEBUG - provider : OPENAI
+2025-02-20 08:31:38,910 - DEBUG - provider : OPENAI
+2025-02-20 08:31:38,911 - DEBUG - provider : OPENAI
+2025-02-20 08:31:47,136 - DEBUG - provider : OPENAI
+2025-02-20 08:31:47,137 - DEBUG - LLMENUM.OPEN_AI : OPENAI
+2025-02-20 08:31:50,833 - DEBUG - provider : OPENAI
+2025-02-20 08:31:50,833 - DEBUG - LLMENUM.OPEN_AI : LLMEnums.OPEN_AI
+2025-02-20 08:32:00,749 - DEBUG - provider : OPENAI
+2025-02-20 08:32:03,744 - DEBUG - provider : OPENAI
+2025-02-20 08:32:06,257 - DEBUG - provider : OPENAI
+2025-02-20 08:32:10,669 - DEBUG - provider : OPENAI
+2025-02-20 08:32:10,671 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:33:45,096 - DEBUG - provider : OPENAI
+2025-02-20 08:33:45,098 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:34:20,420 - DEBUG - provider : OPENAI
+2025-02-20 08:34:20,422 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:34:32,524 - DEBUG - provider : OPENAI
+2025-02-20 08:34:32,526 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:34:35,912 - DEBUG - provider : OPENAI
+2025-02-20 08:34:35,913 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:34:44,891 - DEBUG - provider : OPENAI
+2025-02-20 08:34:44,892 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:34:49,222 - DEBUG - provider : OPENAI
+2025-02-20 08:34:49,223 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:37:21,918 - DEBUG - provider : OPENAI
+2025-02-20 08:37:21,919 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:37:30,280 - DEBUG - provider : OPENAI
+2025-02-20 08:37:30,281 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:37:56,261 - DEBUG - provider : OPENAI
+2025-02-20 08:37:56,262 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:37:56,263 - DEBUG - provider : COHERE
+2025-02-20 08:39:27,207 - DEBUG - provider : OPENAI
+2025-02-20 08:39:27,208 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:39:27,210 - DEBUG - provider : COHERE
+2025-02-20 08:39:29,728 - DEBUG - provider : OPENAI
+2025-02-20 08:39:29,730 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:39:29,733 - DEBUG - provider : COHERE
+2025-02-20 08:39:34,876 - DEBUG - provider : OPENAI
+2025-02-20 08:39:34,877 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:39:34,879 - DEBUG - provider : COHERE
+2025-02-20 08:39:43,404 - DEBUG - provider : OPENAI
+2025-02-20 08:39:43,406 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:39:43,408 - DEBUG - provider : COHERE
+2025-02-20 08:40:29,210 - DEBUG - provider : OPENAI
+2025-02-20 08:40:29,212 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:40:29,214 - DEBUG - provider : COHERE
+2025-02-20 08:40:29,292 - DEBUG - provider : OPENAI
+2025-02-20 08:40:29,293 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:40:29,295 - DEBUG - provider : COHERE
+2025-02-20 08:40:31,488 - DEBUG - provider : OPENAI
+2025-02-20 08:40:31,489 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:40:31,492 - DEBUG - provider : COHERE
+2025-02-20 08:40:31,563 - DEBUG - provider : OPENAI
+2025-02-20 08:40:31,564 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:40:31,566 - DEBUG - provider : COHERE
+2025-02-20 08:40:38,067 - DEBUG - provider : OPENAI
+2025-02-20 08:40:38,069 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:40:38,071 - DEBUG - provider : COHERE
+2025-02-20 08:40:38,140 - DEBUG - provider : OPENAI
+2025-02-20 08:40:38,141 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:40:38,142 - DEBUG - provider : COHERE
+2025-02-20 08:45:25,874 - DEBUG - project_files count is 1 [Asset(id=ObjectId('67b7782b2505ebd9125798e5'), asset_project_id=ObjectId('67b7782b2505ebd9125798e4'), asset_type='file', asset_name='algeria.txt', asset_size=948, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7fe387a5bbc0>)] project_id 67b7782b2505ebd9125798e4 
+2025-02-20 08:45:25,874 - DEBUG - project_file_ids {ObjectId('67b7782b2505ebd9125798e5'): 'algeria.txt'}
+2025-02-20 08:45:25,874 - DEBUG - file id algeria.txt
+2025-02-20 08:45:25,875 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt
+2025-02-20 08:45:25,875 - DEBUG - file extension .txt
+2025-02-20 08:45:25,879 - DEBUG -  chunks [Document(page_content='Algeria, the largest country in Africa, captivates visitors with its vast landscapes and rich', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='landscapes and rich cultural tapestry. From the bustling energy of Algiers—with its blend of modern', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='its blend of modern architecture and historic Ottoman streets—to the sweeping expanse of the Sahara', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='of the Sahara Desert, Algeria offers an unforgettable journey. Its heritage is a vibrant mosaic of', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='a vibrant mosaic of Berber, Arab, Ottoman, and French influences, reflected in diverse traditions,', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='diverse traditions, music, and cuisine. Ancient Roman ruins like Timgad and Djemila stand as', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='Djemila stand as timeless testaments to its illustrious past, while lively souks and local', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='souks and local festivals celebrate living traditions. The varied geography invites adventure, from', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='adventure, from hiking in the Atlas Mountains to exploring secluded desert oases. Embracing', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='oases. Embracing modernity without losing touch with its historical roots, Algeria remains a land', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='remains a land where ancient legacies and natural beauty intertwine, offering a unique destination', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='unique destination that continues to inspire and fascinate travelers.', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'})] Algeria, the largest country in Africa, captivates visitors with its vast landscapes and rich
+2025-02-20 08:49:14,355 - DEBUG - project_files count is 1 [Asset(id=ObjectId('67b779152505ebd9125798f7'), asset_project_id=ObjectId('67b779152505ebd9125798f6'), asset_type='file', asset_name='egypt.txt', asset_size=1062, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7fe387a5bbc0>)] project_id 67b779152505ebd9125798f6 
+2025-02-20 08:49:14,356 - DEBUG - project_file_ids {ObjectId('67b779152505ebd9125798f7'): 'egypt.txt'}
+2025-02-20 08:49:14,356 - DEBUG - file id egypt.txt
+2025-02-20 08:49:14,356 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt
+2025-02-20 08:49:14,356 - DEBUG - file extension .txt
+2025-02-20 08:49:14,360 - DEBUG -  chunks [Document(page_content='Egypt, a country steeped in history and culture, is located in northeastern Africa, bordering both', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='bordering both the Mediterranean and the Red Sea. Renowned as the cradle of civilization, Egypt is', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='Egypt is home to ancient monuments that continue to captivate the world. The magnificent pyramids', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='pyramids of Giza, the enigmatic Sphinx, and the grand temples along the Nile testify to the', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='Nile testify to the ingenuity of its people. The Nile River, Egypt’s lifeline, has nourished the', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='has nourished the land for millennia, supporting agriculture and fostering vibrant trade. In modern', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='trade. In modern times, Egypt seamlessly blends its illustrious past with contemporary life in', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='life in dynamic cities such as Cairo and Alexandria. Visitors explore bustling bazaars, savor', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='bazaars, savor flavorful cuisine, and experience warm hospitality. Egypt’s diverse landscapes, from', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='landscapes, from expansive deserts to fertile river valleys, offer endless opportunities for', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='opportunities for discovery and adventure. The nation remains a symbol of resilience, innovation,', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='innovation, and enduring cultural legacy. Its spirit inspires millions and fuels ongoing research', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'}), Document(page_content='ongoing research and exploration worldwide continuously.', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/1/egypt.txt'})] Egypt, a country steeped in history and culture, is located in northeastern Africa, bordering both
+2025-02-20 08:49:16,430 - DEBUG - project_files count is 1 [Asset(id=ObjectId('67b778d22505ebd9125798f3'), asset_project_id=ObjectId('67b778d22505ebd9125798f2'), asset_type='file', asset_name='algeria.txt', asset_size=948, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7fe387a5bbc0>)] project_id 67b778d22505ebd9125798f2 
+2025-02-20 08:49:16,430 - DEBUG - project_file_ids {ObjectId('67b778d22505ebd9125798f3'): 'algeria.txt'}
+2025-02-20 08:49:16,431 - DEBUG - file id algeria.txt
+2025-02-20 08:49:16,431 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt
+2025-02-20 08:49:16,431 - DEBUG - file extension .txt
+2025-02-20 08:49:16,437 - DEBUG -  chunks [Document(page_content='Algeria, the largest country in Africa, captivates visitors with its vast landscapes and rich', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='landscapes and rich cultural tapestry. From the bustling energy of Algiers—with its blend of modern', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='its blend of modern architecture and historic Ottoman streets—to the sweeping expanse of the Sahara', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='of the Sahara Desert, Algeria offers an unforgettable journey. Its heritage is a vibrant mosaic of', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='a vibrant mosaic of Berber, Arab, Ottoman, and French influences, reflected in diverse traditions,', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='diverse traditions, music, and cuisine. Ancient Roman ruins like Timgad and Djemila stand as', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='Djemila stand as timeless testaments to its illustrious past, while lively souks and local', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='souks and local festivals celebrate living traditions. The varied geography invites adventure, from', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='adventure, from hiking in the Atlas Mountains to exploring secluded desert oases. Embracing', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='oases. Embracing modernity without losing touch with its historical roots, Algeria remains a land', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='remains a land where ancient legacies and natural beauty intertwine, offering a unique destination', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'}), Document(page_content='unique destination that continues to inspire and fascinate travelers.', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/2/algeria.txt'})] Algeria, the largest country in Africa, captivates visitors with its vast landscapes and rich
+2025-02-20 08:49:32,414 - DEBUG - project_files count is 1 [Asset(id=ObjectId('67b779052505ebd9125798f5'), asset_project_id=ObjectId('67b779052505ebd9125798f4'), asset_type='file', asset_name='tunisia.txt', asset_size=917, asset_config=None, asset_pushed_at=<built-in method utcnow of type object at 0x7fe387a5bbc0>)] project_id 67b779052505ebd9125798f4 
+2025-02-20 08:49:32,415 - DEBUG - project_file_ids {ObjectId('67b779052505ebd9125798f5'): 'tunisia.txt'}
+2025-02-20 08:49:32,415 - DEBUG - file id tunisia.txt
+2025-02-20 08:49:32,415 - DEBUG - file path /mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt
+2025-02-20 08:49:32,416 - DEBUG - file extension .txt
+2025-02-20 08:49:32,421 - DEBUG -  chunks [Document(page_content='Tunisia, a Mediterranean gem, harmoniously blends ancient history with contemporary charm. Renowned', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='charm. Renowned for the legendary ruins of Carthage and the labyrinthine medina of Tunis, the', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='of Tunis, the country offers a vivid window into the past. Its diverse landscapes span from', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='span from sun-kissed beaches and turquoise waters to fertile plains and arid desert fringes. The', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='desert fringes. The cultural fabric is woven from Arab, Berber, and French influences, evident in', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='evident in its distinctive architecture, savory cuisine, and colorful marketplaces. Visitors', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='Visitors meander through bustling souks, savor local dishes such as couscous, and experience the', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='and experience the warm hospitality of its people. Modern Tunisia thrives alongside historical', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='historical treasures, creating a dynamic atmosphere where tradition and innovation coexist. With', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='coexist. With its rich cultural legacy, scenic vistas, and inviting spirit, Tunisia stands out as a', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'}), Document(page_content='stands out as a captivating destination for travelers seeking a truly Mediterranean experience', metadata={'source': '/mnt/d/machine_learning/mini-rag/src/assets/files/3/tunisia.txt'})] Tunisia, a Mediterranean gem, harmoniously blends ancient history with contemporary charm. Renowned
+2025-02-20 08:51:08,714 - DEBUG - provider : OPENAI
+2025-02-20 08:51:08,716 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:51:08,718 - DEBUG - provider : COHERE
+2025-02-20 08:51:08,800 - DEBUG - provider : OPENAI
+2025-02-20 08:51:08,801 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:51:08,803 - DEBUG - provider : COHERE
+2025-02-20 08:54:31,299 - DEBUG - provider : OPENAI
+2025-02-20 08:54:31,301 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:54:31,303 - DEBUG - provider : COHERE
+2025-02-20 08:54:31,407 - DEBUG - provider : OPENAI
+2025-02-20 08:54:31,408 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:54:31,411 - DEBUG - provider : COHERE
+2025-02-20 08:55:20,801 - DEBUG - provider : OPENAI
+2025-02-20 08:55:20,803 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:55:20,805 - DEBUG - provider : COHERE
+2025-02-20 08:55:20,914 - DEBUG - provider : OPENAI
+2025-02-20 08:55:20,915 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:55:20,918 - DEBUG - provider : COHERE
+2025-02-20 08:57:06,388 - DEBUG - provider : OPENAI
+2025-02-20 08:57:06,389 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:06,391 - DEBUG - provider : COHERE
+2025-02-20 08:57:06,491 - DEBUG - provider : OPENAI
+2025-02-20 08:57:06,493 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:06,495 - DEBUG - provider : COHERE
+2025-02-20 08:57:08,828 - DEBUG - provider : OPENAI
+2025-02-20 08:57:08,830 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:08,831 - DEBUG - provider : COHERE
+2025-02-20 08:57:08,905 - DEBUG - provider : OPENAI
+2025-02-20 08:57:08,907 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:08,909 - DEBUG - provider : COHERE
+2025-02-20 08:57:11,369 - DEBUG - provider : OPENAI
+2025-02-20 08:57:11,370 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:11,372 - DEBUG - provider : COHERE
+2025-02-20 08:57:11,446 - DEBUG - provider : OPENAI
+2025-02-20 08:57:11,447 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:11,449 - DEBUG - provider : COHERE
+2025-02-20 08:57:21,909 - DEBUG - provider : OPENAI
+2025-02-20 08:57:21,910 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:21,912 - DEBUG - provider : COHERE
+2025-02-20 08:57:21,978 - DEBUG - provider : OPENAI
+2025-02-20 08:57:21,979 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:21,980 - DEBUG - provider : COHERE
+2025-02-20 08:57:32,378 - DEBUG - provider : OPENAI
+2025-02-20 08:57:32,379 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:32,381 - DEBUG - provider : COHERE
+2025-02-20 08:57:32,452 - DEBUG - provider : OPENAI
+2025-02-20 08:57:32,453 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:32,456 - DEBUG - provider : COHERE
+2025-02-20 08:57:35,648 - DEBUG - provider : OPENAI
+2025-02-20 08:57:35,650 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:35,652 - DEBUG - provider : COHERE
+2025-02-20 08:57:35,735 - DEBUG - provider : OPENAI
+2025-02-20 08:57:35,736 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:35,739 - DEBUG - provider : COHERE
+2025-02-20 08:57:42,218 - DEBUG - provider : OPENAI
+2025-02-20 08:57:42,219 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:42,221 - DEBUG - provider : COHERE
+2025-02-20 08:57:42,308 - DEBUG - provider : OPENAI
+2025-02-20 08:57:42,309 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:42,311 - DEBUG - provider : COHERE
+2025-02-20 08:57:45,043 - DEBUG - provider : OPENAI
+2025-02-20 08:57:45,044 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:45,047 - DEBUG - provider : COHERE
+2025-02-20 08:57:45,121 - DEBUG - provider : OPENAI
+2025-02-20 08:57:45,122 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:45,125 - DEBUG - provider : COHERE
+2025-02-20 08:57:47,678 - DEBUG - provider : OPENAI
+2025-02-20 08:57:47,679 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:47,681 - DEBUG - provider : COHERE
+2025-02-20 08:57:47,764 - DEBUG - provider : OPENAI
+2025-02-20 08:57:47,765 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:57:47,768 - DEBUG - provider : COHERE
+2025-02-20 08:57:49,828 - DEBUG - starting the while
+2025-02-20 08:57:49,830 - DEBUG - in the while 0
+2025-02-20 08:58:24,566 - DEBUG - provider : OPENAI
+2025-02-20 08:58:24,567 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:58:24,569 - DEBUG - provider : COHERE
+2025-02-20 08:58:24,665 - DEBUG - provider : OPENAI
+2025-02-20 08:58:24,666 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:58:24,668 - DEBUG - provider : COHERE
+2025-02-20 08:58:29,112 - DEBUG - provider : OPENAI
+2025-02-20 08:58:29,113 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:58:29,115 - DEBUG - provider : COHERE
+2025-02-20 08:58:29,243 - DEBUG - provider : OPENAI
+2025-02-20 08:58:29,245 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:58:29,255 - DEBUG - provider : COHERE
+2025-02-20 08:58:29,341 - DEBUG - starting the while
+2025-02-20 08:58:29,343 - DEBUG - in the while 0
+2025-02-20 08:58:58,008 - DEBUG - provider : OPENAI
+2025-02-20 08:58:58,010 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:58:58,012 - DEBUG - provider : COHERE
+2025-02-20 08:58:58,088 - DEBUG - provider : OPENAI
+2025-02-20 08:58:58,089 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:58:58,092 - DEBUG - provider : COHERE
+2025-02-20 08:59:03,264 - DEBUG - provider : OPENAI
+2025-02-20 08:59:03,265 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:59:03,268 - DEBUG - provider : COHERE
+2025-02-20 08:59:03,350 - DEBUG - provider : OPENAI
+2025-02-20 08:59:03,351 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:59:03,354 - DEBUG - provider : COHERE
+2025-02-20 08:59:07,532 - DEBUG - provider : OPENAI
+2025-02-20 08:59:07,534 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:59:07,536 - DEBUG - provider : COHERE
+2025-02-20 08:59:07,603 - DEBUG - provider : OPENAI
+2025-02-20 08:59:07,604 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:59:07,606 - DEBUG - provider : COHERE
+2025-02-20 08:59:15,935 - DEBUG - provider : OPENAI
+2025-02-20 08:59:15,937 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:59:15,939 - DEBUG - provider : COHERE
+2025-02-20 08:59:16,030 - DEBUG - provider : OPENAI
+2025-02-20 08:59:16,041 - DEBUG - I AM HERE : OPENAI
+2025-02-20 08:59:16,045 - DEBUG - provider : COHERE
+2025-02-20 08:59:16,225 - DEBUG - starting the while
+2025-02-20 08:59:16,228 - DEBUG - in the while 0 project_id is 2
+2025-02-20 09:00:10,679 - DEBUG - provider : OPENAI
+2025-02-20 09:00:10,681 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:10,683 - DEBUG - provider : COHERE
+2025-02-20 09:00:10,759 - DEBUG - provider : OPENAI
+2025-02-20 09:00:10,761 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:10,763 - DEBUG - provider : COHERE
+2025-02-20 09:00:13,482 - DEBUG - provider : OPENAI
+2025-02-20 09:00:13,484 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:13,487 - DEBUG - provider : COHERE
+2025-02-20 09:00:13,573 - DEBUG - provider : OPENAI
+2025-02-20 09:00:13,574 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:13,577 - DEBUG - provider : COHERE
+2025-02-20 09:00:18,432 - DEBUG - provider : OPENAI
+2025-02-20 09:00:18,433 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:18,435 - DEBUG - provider : COHERE
+2025-02-20 09:00:18,504 - DEBUG - provider : OPENAI
+2025-02-20 09:00:18,505 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:18,506 - DEBUG - provider : COHERE
+2025-02-20 09:00:21,821 - DEBUG - provider : OPENAI
+2025-02-20 09:00:21,823 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:21,826 - DEBUG - provider : COHERE
+2025-02-20 09:00:21,918 - DEBUG - provider : OPENAI
+2025-02-20 09:00:21,919 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:21,921 - DEBUG - provider : COHERE
+2025-02-20 09:00:26,925 - DEBUG - provider : OPENAI
+2025-02-20 09:00:26,926 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:26,928 - DEBUG - provider : COHERE
+2025-02-20 09:00:27,009 - DEBUG - provider : OPENAI
+2025-02-20 09:00:27,010 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:27,013 - DEBUG - provider : COHERE
+2025-02-20 09:00:33,856 - DEBUG - provider : OPENAI
+2025-02-20 09:00:33,857 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:33,859 - DEBUG - provider : COHERE
+2025-02-20 09:00:33,935 - DEBUG - provider : OPENAI
+2025-02-20 09:00:33,937 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:33,939 - DEBUG - provider : COHERE
+2025-02-20 09:00:38,485 - DEBUG - provider : OPENAI
+2025-02-20 09:00:38,487 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:38,489 - DEBUG - provider : COHERE
+2025-02-20 09:00:38,578 - DEBUG - provider : OPENAI
+2025-02-20 09:00:38,579 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:38,582 - DEBUG - provider : COHERE
+2025-02-20 09:00:45,149 - DEBUG - provider : OPENAI
+2025-02-20 09:00:45,151 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:45,153 - DEBUG - provider : COHERE
+2025-02-20 09:00:45,243 - DEBUG - provider : OPENAI
+2025-02-20 09:00:45,245 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:00:45,248 - DEBUG - provider : COHERE
+2025-02-20 09:01:25,293 - DEBUG - provider : OPENAI
+2025-02-20 09:01:25,295 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:01:25,296 - DEBUG - provider : COHERE
+2025-02-20 09:01:25,372 - DEBUG - provider : OPENAI
+2025-02-20 09:01:25,373 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:01:25,375 - DEBUG - provider : COHERE
+2025-02-20 09:02:13,627 - DEBUG - provider : OPENAI
+2025-02-20 09:02:13,628 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:02:13,629 - DEBUG - provider : COHERE
+2025-02-20 09:02:13,702 - DEBUG - provider : OPENAI
+2025-02-20 09:02:13,703 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:02:13,706 - DEBUG - provider : COHERE
+2025-02-20 09:02:42,111 - DEBUG - provider : OPENAI
+2025-02-20 09:02:42,113 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:02:42,115 - DEBUG - provider : COHERE
+2025-02-20 09:02:42,192 - DEBUG - provider : OPENAI
+2025-02-20 09:02:42,193 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:02:42,194 - DEBUG - provider : COHERE
+2025-02-20 09:03:24,571 - DEBUG - provider : OPENAI
+2025-02-20 09:03:24,572 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:03:24,574 - DEBUG - provider : COHERE
+2025-02-20 09:03:24,658 - DEBUG - provider : OPENAI
+2025-02-20 09:03:24,660 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:03:24,662 - DEBUG - provider : COHERE
+2025-02-20 09:03:28,376 - DEBUG - provider : OPENAI
+2025-02-20 09:03:28,377 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:03:28,393 - DEBUG - provider : COHERE
+2025-02-20 09:03:28,545 - DEBUG - provider : OPENAI
+2025-02-20 09:03:28,547 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:03:28,550 - DEBUG - provider : COHERE
+2025-02-20 09:03:37,873 - DEBUG - starting the while
+2025-02-20 09:03:37,875 - DEBUG - in the while 0 project_id is 2
+2025-02-20 09:03:57,670 - DEBUG - provider : OPENAI
+2025-02-20 09:03:57,672 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:03:57,675 - DEBUG - provider : COHERE
+2025-02-20 09:03:57,752 - DEBUG - provider : OPENAI
+2025-02-20 09:03:57,754 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:03:57,757 - DEBUG - provider : COHERE
+2025-02-20 09:04:00,196 - DEBUG - provider : OPENAI
+2025-02-20 09:04:00,197 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:04:00,199 - DEBUG - provider : COHERE
+2025-02-20 09:04:00,265 - DEBUG - provider : OPENAI
+2025-02-20 09:04:00,266 - DEBUG - I AM HERE : OPENAI
+2025-02-20 09:04:00,268 - DEBUG - provider : COHERE
+2025-02-20 09:05:04,575 - DEBUG - starting the while
+2025-02-20 09:05:04,578 - DEBUG - in the while 0 project_id is 2
+2025-02-20 09:05:42,514 - DEBUG - starting the while
+2025-02-20 09:05:56,336 - DEBUG - starting the while
+2025-02-20 09:05:56,338 - DEBUG - in the while 0 project_id is 2
+2025-02-20 09:06:50,047 - DEBUG - starting the while
+2025-02-20 09:06:50,050 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:07:50,407 - DEBUG - starting the while
+2025-02-20 09:07:50,410 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:08:58,485 - DEBUG - starting the while
+2025-02-20 09:08:58,488 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:09:31,979 - DEBUG - starting the while
+2025-02-20 09:09:31,982 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:12:21,002 - DEBUG - starting the while
+2025-02-20 09:12:21,004 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:13:44,786 - DEBUG - starting the while
+2025-02-20 09:13:44,788 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:13,387 - DEBUG - starting the while
+2025-02-20 09:14:13,391 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:14,447 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:15,476 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:16,844 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:17,916 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:18,942 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:19,852 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:14:20,755 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:16:51,078 - DEBUG - starting the while
+2025-02-20 09:16:51,081 - DEBUG - in the while 12 project_id is 2
+2025-02-20 09:16:52,289 - DEBUG - in the while 0 project_id is 2
+2025-02-20 09:17:01,277 - DEBUG - starting the while
+2025-02-20 09:17:01,279 - DEBUG - in the while 13 project_id is 1
+2025-02-20 09:17:02,384 - DEBUG - in the while 0 project_id is 1
+2025-02-20 09:17:06,161 - DEBUG - starting the while
+2025-02-20 09:17:06,163 - DEBUG - in the while 11 project_id is 3
+2025-02-20 09:17:07,045 - DEBUG - in the while 0 project_id is 3

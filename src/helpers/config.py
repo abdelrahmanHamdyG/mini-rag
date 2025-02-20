@@ -28,6 +28,12 @@ class Settings:
         self.EMBEDDING_MODEL_ID = os.getenv("EMBEDDING_MODEL_ID", "embed-multilingual-light-v3.0")
         self.EMBEDDING_MODEL_SIZE = int(os.getenv("EMBEDDING_MODEL_SIZE", 384))
 
+        
+        self.VECTOR_DB_BACKEND = os.getenv("VECTOR_DB_BACKEND", "QDRANT")
+        self.VECTOR_DB_PATH = os.getenv("VECTOR_DB_PATH", "qdrant_db")
+        self.VECTOR_DB_DISTANCE = os.getenv("VECTOR_DB_DISTANCE", "COSINE")
+
+
 
 
 def get_settings():

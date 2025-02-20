@@ -23,7 +23,7 @@ class CohereProvider(LLMInterface):
         self.embedding_size=None
 
         self.client=cohere.Client(api_key=self.api_key)
-        self.logger=Logger.get_logger()
+        self.logger=Logger().get_logger()
     
     def set_generation_model(self,model_id:str):
         self.generation_model_id= model_id
@@ -78,9 +78,9 @@ class CohereProvider(LLMInterface):
 
 
             model=self.embedding_model_id,
-            text=[text],
+            texts=[text],
             input_type=input_type,
-            embedding_type=['float'],
+            # embedding_type=['float'],
         )
         
         if not response or not response.embeddings:

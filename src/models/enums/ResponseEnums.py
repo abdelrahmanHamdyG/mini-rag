@@ -10,4 +10,6 @@ class ResponseSignals(Enum):
     FILE_PROCESSED_FAILED="file processing failed"
     FILE_PROCESSED_SUCCESS="file processing sucess"
     NO_FILES_ERROR="no files found"
-    
+    PROJECT_NOT_FOUND="project not found"
+    INSERTION_PROBLEM="problem inserting to qdrant"
+    INSERTION_SUCCESSFULLY="chunks inserted successfully"
