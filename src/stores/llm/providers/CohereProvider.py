@@ -69,7 +69,7 @@ class CohereProvider(LLMInterface):
         if not self.client or not self.embedding_model_id:
             return None
         
-
+        self.logger.debug(" we are embedding text {text} and that is it ")
         input_type=LLMEnums.COHERE_DOCUMENT
         if document_type== LLMEnums.QEURY:
             input_type=LLMEnums.COHERE_QUERY
@@ -85,6 +85,8 @@ class CohereProvider(LLMInterface):
         
         if not response or not response.embeddings:
             return None
+        self.logger.debug(f" the response after embedding {response.embeddings[0]}")
+        return response.embeddings[0]
         
         
 

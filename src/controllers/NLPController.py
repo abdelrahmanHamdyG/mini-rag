@@ -2,6 +2,7 @@ from .import BaseController
 from models.db_schemas import Project,DataChunk
 from typing import List
 from stores import LLMEnums
+from helpers import Logger
 import json
 class NLPController(BaseController):
 
@@ -12,7 +13,7 @@ class NLPController(BaseController):
         self.generation_client=generation_client
         self.embedding_client=embedding_client
         
-    
+        self.logger=Logger().get_logger()
 
     def create_collection_name(self, project_id: str ):
         return f"collection_{project_id}".strip()
@@ -57,8 +58,9 @@ class NLPController(BaseController):
             do_reset=do_reset
 
         )
+        
 
-
+        self.logger.debug(f"we are inserting many {vectors[0]}")
         self.vector_db_client.insert_many(
 
             collection_name=collection_name,
@@ -73,6 +75,40 @@ class NLPController(BaseController):
 
         return True
         
+    def search_vector_db_collection(self,project:Project,text: str ,limit:int =10):
+
+        collection_name=self.create_collection_name(project_id=project.project_id)
+
+        vector=self.embedding_client.embed_text(
+
+            text=text,
+            document_type=LLMEnums.QEURY.value
+        )
+
+        
+        if not vector or len(vector)==0:
+            return False
+        
+
+        self.logger.debug(f" we are going to search by vector the collection_name is {collection_name}")
+        results=self.vector_db_client.search_by_vector(
+
+            vector=vector,
+            limit=limit,
+            collection_name=collection_name
+        )
+
+        
+        self.logger.debug(f" the results after searching by vector {results}")
+        if not results:
+            return False
+        
+
+        return json.loads(
+
+            json.dumps(results , default=lambda x:x.__dict__)
+        )
+
 
 
 

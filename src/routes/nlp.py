@@ -3,6 +3,7 @@ from fastapi import FastAPI, APIRouter, status, Request
 from fastapi.responses import JSONResponse
 from helpers import Logger
 from routes.schemas.PushRequest import PushRequest
+from routes.schemas.SearchRequest import SearchRequest
 from models import ProjectModel
 from controllers import NLPController
 from models import ResponseSignals,DataChunkModel
@@ -101,3 +102,43 @@ async def get_project_index_info(request:Request, project_id:str):
 
 
 
+@nlp_router.post("/index/search/{project_id}")
+async def search_indext(request:Request,project_id:str,search_request:SearchRequest):
+
+    project=await ProjectModel.create_instance(request.app.db_client)
+    project=await project.get_project_or_create_one(project_id)
+
+    nlp_controller=NLPController(
+                                vector_db_client=request.app.vector_db_client,
+                                 embedding_client=request.app.embedding_client,
+                                 generation_client=request.app.generation_client)
+    
+    results=nlp_controller.search_vector_db_collection(project=project,text=search_request.text,limit=search_request.limit)
+
+
+    if not results:
+         
+
+         return JSONResponse(
+
+            content={
+                "signal": "so baad",
+            }   
+
+        ) 
+    
+
+
+    return JSONResponse(
+
+        content={
+            "signal": "searching index done successfully",
+            "results":results
+        }
+
+    ) 
+
+
+
+
+    

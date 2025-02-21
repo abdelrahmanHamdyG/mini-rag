@@ -128,6 +128,11 @@ class QdrantDB(VectorDBInterface):
 
 
     def search_by_vector(self, collection_name, vector, limit):
+
+        self.logger.debug(f"we are inside Qdrant DB search by vector {collection_name} and vector {vector}  and limit {limit}" )
+
+        result=self.is_collection_existed(collection_name)
+        self.logger.debug(f" does collection exists {result}" )
         return self.client.search(
 
             collection_name=collection_name,
