@@ -71,7 +71,7 @@ class QdrantDB(VectorDBInterface):
         
         self.client.upload_records(
 
-            collection_name=collection_name,
+            collection_name=collection_name,    
             records=[
                 models.Record(
                     id=[record_ids],
@@ -95,7 +95,7 @@ class QdrantDB(VectorDBInterface):
             record_ids=list(range(0,len(texts)))
 
         for i in range(0,number_of_texts,batch_size):
-            batch_end=i*batch_size
+            batch_end=i+batch_size
 
             batch_text=texts[i:batch_end]
             batch_record_ids=record_ids[i:batch_end]
@@ -105,7 +105,7 @@ class QdrantDB(VectorDBInterface):
             batch_records=[
                
                 models.Record(
-                id=batch_record_ids[i],
+                id=batch_record_ids[j],
                 vector=batch_vectors[j],
                 payload={
                     "text":batch_text[j],

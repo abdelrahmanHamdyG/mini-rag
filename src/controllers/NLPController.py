@@ -2,7 +2,7 @@ from .import BaseController
 from models.db_schemas import Project,DataChunk
 from typing import List
 from stores import LLMEnums
-
+import json
 class NLPController(BaseController):
 
     def __init__(self,vector_db_client,generation_client,embedding_client):
@@ -26,7 +26,12 @@ class NLPController(BaseController):
     def get_vector_db_collection_info(self,project:Project):
         collection_name=self.create_collection_name(project_id=project.project_id)
         collection_info=self.vector_db_client.get_collection_info(collection_name=collection_name)
-        return collection_info
+        
+        return json.loads(
+
+            json.dumps(collection_info,default=lambda x: x.__dict__)
+        )
+        
 
 
     def index_into_vector_db(self,project:Project, chunks:List[DataChunk],chunks_ids:List[int],do_reset: bool =True):
@@ -49,7 +54,7 @@ class NLPController(BaseController):
 
             collection_name=collection_name,
             embedding_size=self.embedding_client.embedding_size,
-            do_reset=True
+            do_reset=do_reset
 
         )
 
