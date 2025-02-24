@@ -39,15 +39,20 @@ class OpenAiProvider(LLMInterface):
         self.embedding_size = embedding_size
 
     def generate_text(self, prompt, max_output_token, chat_history=None, temperature=None):
+
+        self.logger.debug(f"we are generating text {prompt}")
+
         if chat_history is None:
             chat_history = []
-        if not self.client or not self.embedding_model_id or not self.generation_model_id:
+        if not self.client  or not self.generation_model_id:
+            
             return None
 
         max_output_token = max_output_token if max_output_token is not None else self.default_generation_max_output_tokens    
         temperature = temperature if temperature is not None else self.default_generation_temperature
 
-        chat_history.append(self.construct_prompt(prompt, LLMEnums.OPENAI_USER))
+        chat_history.append(self.construct_prompt(prompt, LLMEnums.OPENAI_USER.value))
+        self.logger.debug(f" we constructed the prompt inside openai ")
 
         response = self.client.ChatCompletion.create(
             model=self.generation_model_id,
@@ -55,10 +60,12 @@ class OpenAiProvider(LLMInterface):
             max_tokens=max_output_token,
             temperature=temperature
         )
-
-        if not response or not response.choices or len(response.choices) == 0:
-            return None
         
+        if not response or not response.choices or len(response.choices) == 0:
+            self.logger.debug(f" response is null we are inside openai ")
+            return None
+        self.logger.debug(f" we got response {response}")
+        self.logger.debug(f" we got response {response.choices[0]}")
         return response.choices[0].message["content"]
 
     def embed_text(self, text, document_type):

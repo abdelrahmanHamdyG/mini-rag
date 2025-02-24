@@ -5,7 +5,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from helpers.config import get_settings
 from stores.llm.LLMProviderFactory import LLMProviderFactory
 from stores.vectordb.VectorDBFactory import VectorDBFactory
-
+from stores.llm.templates import TemplateParser
 app = FastAPI()
 
 @app.on_event("startup")
@@ -26,7 +26,8 @@ async def startup_db_client():
     app.embedding_client.set_embedding_model(model_id=settings.EMBEDDING_MODEL_ID,embedding_size=settings.EMBEDDING_MODEL_SIZE)
     app.vector_db_client=vector_db_factory.create(provider=settings.VECTOR_DB_BACKEND)
     app.vector_db_client.connect()
-
+    app.template_parser=TemplateParser(language='en')
+    
 
 
 

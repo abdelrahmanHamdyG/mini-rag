@@ -1,6 +1,7 @@
 from ..VectorDBInterface import VectorDBInterface
 from qdrant_client import models,QdrantClient
 from ..VectorDBEnums import VectorDBEnums
+from models.db_schemas import RetrieveDocument
 from helpers import Logger
 
 
@@ -131,15 +132,29 @@ class QdrantDB(VectorDBInterface):
 
         self.logger.debug(f"we are inside Qdrant DB search by vector {collection_name} and vector {vector}  and limit {limit}" )
 
-        result=self.is_collection_existed(collection_name)
-        self.logger.debug(f" does collection exists {result}" )
-        return self.client.search(
+        
+        results= self.client.search(
 
             collection_name=collection_name,
             query_vector=vector,
             limit=limit
 
         )
+
+        if not results or len(results)==0:
+            return None
+        
+
+        return [
+
+            RetrieveDocument(**{
+                "score":result.score,
+                "text":result.payload['text']
+
+            })
+            for result in results
+
+        ]
     
     
 

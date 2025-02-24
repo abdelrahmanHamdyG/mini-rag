@@ -86,8 +86,8 @@ async def get_project_index_info(request:Request, project_id:str):
 
     nlp_controller=NLPController(vector_db_client=request.app.vector_db_client,
                                  embedding_client=request.app.embedding_client,
-                                 generation_client=request.app.generation_client
-                                 )
+                                 generation_client=request.app.generation_client,
+                                template_parser=request.app.template_parser)
     
     collection_info= nlp_controller.get_vector_db_collection_info(project=project)
 
@@ -111,7 +111,9 @@ async def search_indext(request:Request,project_id:str,search_request:SearchRequ
     nlp_controller=NLPController(
                                 vector_db_client=request.app.vector_db_client,
                                  embedding_client=request.app.embedding_client,
-                                 generation_client=request.app.generation_client)
+                                 generation_client=request.app.generation_client,
+                                 template_parser=request.app.template_parser
+                                 )
     
     results=nlp_controller.search_vector_db_collection(project=project,text=search_request.text,limit=search_request.limit)
 
@@ -133,12 +135,52 @@ async def search_indext(request:Request,project_id:str,search_request:SearchRequ
 
         content={
             "signal": "searching index done successfully",
-            "results":results
+            "results":[result.dict() for result in results]
         }
 
     ) 
 
 
+@nlp_router.post("/index/answer/{project_id}")
+async def answer_rag(request:Request,project_id:str, search_request:SearchRequest):
+
+    
+    projectModel=await ProjectModel.create_instance(request.app.db_client)
+    project=await projectModel.get_project_or_create_one(project_id)
+
+    nlp_controller=NLPController(
+                                vector_db_client=request.app.vector_db_client,
+                                 embedding_client=request.app.embedding_client,
+                                 generation_client=request.app.generation_client,
+                                 template_parser=request.app.template_parser
+                                 )
+    
+    answer,full_prompt, chat_history =nlp_controller.answer_rag_question(
+
+        project=project,
+        query=search_request.text,
+        limit=search_request.limit
+
+    )
+
+    if not answer:
+        return JSONResponse(
+
+        content={
+            "signal": "no answer got ",
+            
+        }
+
+    ) 
 
 
+    return JSONResponse(
+
+        content={
+            "answer": answer,
+            "full_prompt":full_prompt,
+            "chat_history": chat_history
+        }
+
+    ) 
     
